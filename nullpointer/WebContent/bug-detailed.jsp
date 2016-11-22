@@ -137,17 +137,83 @@
 				<li>拖放</li>
 			</ul>
 			</section> <footer>
-			<p class="pull-right text-muted">本文在知识共享 署名-相同方式共享 3.0协议之条款下提供。</p>
-			<p class="text-important">本文节选自 Wikipedia HTML5 词条。</p>
-			<ul class="pager pager-justify">
-				<li class="previous"><a target="_blank"
-					href="https://zh.wikipedia.org/wiki/Category:HTML"><i
-						class="icon-arrow-left"></i> HTML</a></li>
-				<li class="next disabled"><a target="_blank"
-					href="https://zh.wikipedia.org/wiki/Category:W3C%E6%A0%87%E5%87%86">W3C
-						标准 <i class="icon-arrow-right"></i>
-				</a></li>
-			</ul>
+			                                         <!--评论内容开始-->
+                             <div class="comments">
+                                  <header>
+                                    
+                                    <h3>所有评论</h3>
+                                  </header>
+                                  <section class="comments-list">
+                                    <div class="comment">
+                                      <a href="###" class="avatar">
+                                        <i class="icon-camera-retro icon-2x"></i>
+                                      </a>
+                                      <div class="content">
+                                        <div class="pull-right text-muted">3 个小时前</div>
+                                        <div><a href="###"><strong>张士超</strong></a></div>
+                                        <div class="text">今天玩的真开心！~~~~~~</div>
+                                        <div class="actions">
+                                          <a href="##">回复</a>
+                                        </div>
+                                      </div>
+                                      <div class="comments-list">
+                                        <div class="comment">
+                                          <a href="###" class="avatar">
+                                            <i class="icon-user icon-2x"></i>
+                                          </a>
+                                          <div class="content">
+                                            <div class="pull-right text-muted">2 个小时前</div>
+                                            <div><a href="###"><strong>Catouse</strong></a> <span class="text-muted">回复</span> <a href="###">汤汤</a></div>
+                                            <div class="text">你到底把我家钥匙放哪里了...</div>
+                                            <div class="actions">
+                                              <a href="##">编辑</a>
+                                              <a href="##">删除</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="comment">
+                                          <a href="###" class="avatar">
+                                            <i class="icon-heart-empty icon-2x"></i>
+                                          </a>
+                                          <div class="content">
+                                            <div class="pull-right text-muted">30 分钟前</div>
+                                            <div><a href="###"><strong>华师大第一美女</strong></a> <span class="text-muted">回复</span> <a href="###">张士超</a></div>
+                                            <div class="text">很开心~~~</div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="comment">
+                                      <a href="###" class="avatar">
+                                        <i class="icon-camera-retro icon-2x"></i>
+                                      </a>
+                                      <div class="content">
+                                        <div class="pull-right text-muted">3 个小时前</div>
+                                        <div><a href="###"><strong>隔壁老王</strong></a></div>
+                                        <div class="text">今天看到了隔壁家的孩子 和我长得差不多啊</div>
+                                        <div class="actions">
+                                          <a href="##">回复</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </section>
+                                  <footer>
+                                    <div class="reply-form" id="commentReplyForm2">
+                                      <a href="###" class="avatar"><i class="icon-user icon-2x"></i></a>
+                                      <form class="form">
+                                        <div class="form-group">
+                                          <textarea id="content" name="content" class="form-control kindeditor"></textarea>
+                                        </div>
+                                        <div class="form-group comment-user">
+                                         
+                                            <div class="col-md-2 pull-right"><button type="submit" class="btn btn-block btn-primary">提交评论</button></div>
+                                          </div>
+                                        </div>
+                                      </form>
+                                    </div>
+                                </footer>
+                                </div>
+                                <!--评论内容结束-->
 			</footer> </article>
 		</div>
 	</div>
