@@ -1,7 +1,15 @@
 package com.exp.loginUser.controller;
 
+import java.io.IOException;
+import java.net.URI;
+
 import javax.annotation.Resource;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
+import javax.xml.ws.spi.http.HttpContext;
+
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -12,6 +20,7 @@ import com.exp.entity.LoginUser;
 import com.exp.entity.UserInfo;
 import com.exp.loginUser.service.LoginUserServiceImpl;
 import com.framework.EncodingTool;
+import com.framework.MakeCodeServlet;
 
 @Controller
 @RequestMapping("loginUser")
@@ -110,6 +119,7 @@ public class LoginUserController {
 			return "-1";
 		}
 		String result = this.userServiceImpl.loginVerify(loginName, password);
+//		System.out.println(request.getHeader("Referer")); //得到绝对路径
 		return result;
 	}
 }

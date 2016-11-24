@@ -40,8 +40,9 @@
 						class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
 				<!-- 品牌名称或logo -->
-				<img src="images/logo.png" alt="nullpointer" width="200"
-					style="margin-top: 3px;">
+				<a href="${ctx}/index">
+				<img src="${ctx}/images/logo.png" alt="nullpointer" width="200"
+					style="margin-top: 3px;"></a>
 			</div>
 			<!-- 导航项目 -->
 			<div class="collapse navbar-collapse navbar-collapse-example">

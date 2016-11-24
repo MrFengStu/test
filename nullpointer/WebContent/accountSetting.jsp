@@ -53,8 +53,9 @@
 						class="icon-bar"></span> <span class="icon-bar"></span>
 				</button>
 				<!-- 品牌名称或logo -->
+				<a href="${ctx}/index.jsp">
 				<img src="${ctx}/images/logo.png" alt="nullpointer" width="200"
-					style="margin-top: 3px;">
+					style="margin-top: 3px;"></a>
 			</div>
 			<!-- 导航项目 -->
 			<div class="collapse navbar-collapse navbar-collapse-example">
@@ -64,7 +65,7 @@
 					<li><a href="${ctx}/bug-list-admin.html">BUGS</a></li>
 					<li><a href="${ctx}/q_a_list.html">技术问答</a></li>
 					<li><a href="${ctx}/contact.html">帮助</a></li>
-					<li><a href="${ctx}/login.html">登陆/注册</a></li>
+					<li><a href="${ctx}/loginUser/login">登陆/注册</a></li>
 					<!-- 导航中的下拉菜单 -->
 					<li class="dropdown"><a href="${ctx}/your/nice/url"
 						class="dropdown-toggle" data-toggle="dropdown"> <c:if

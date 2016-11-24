@@ -40,7 +40,7 @@ public class UserInfoController {
 	 * @param session
 	 * @return
 	 */
-	@RequestMapping("/index")
+	@RequestMapping(value="/index")
 	public String index(HttpSession session) {
 		// bug推荐
 		List<Bug> bugList = bugserviceimpl.findHonor().subList(0, 6);

@@ -140,6 +140,10 @@ public class LoginUserServiceImpl {
 				return "14"; //用户名不存在返回14
 			}
 		}
+		//判断密码是否正确
+		if(!t1.getLoginPassword().equals(password)){
+			return "19";
+		}
 		//判断是否激活
 		if(t1.getLoginActive()==null){
 			return "16";
